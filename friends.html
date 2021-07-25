@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends - pc version</title>
+</head>
+
+<body>
+    <div class="top">
+        <i class="far fa-window-minimize"></i>
+        <i class="far fa-window-maximize"></i>
+        <i class="far fa-window-close"></i>
+    </div>
+    <div class="main">
+        <nav class="nav">
+            <div class="nav__top">
+                <i class="fas fa-user nav__click"></i>
+                <i class="fas fa-comment"></i>
+                <i class="fas fa-ellipsis-h"></i>
+            </div>
+            <div class="nav__bottom">
+                <div><i class="far fa-smile"></i></div>
+                <div><i class="far fa-bell"></i></div>
+                <div><i class="fas fa-cog"></i></div>
+            </div>
+        </nav>
+
+        <main class="main-contents">
+            <header class="main-contents__header">
+                <h1 class="main-contents__header-title"><a href="#">친구<i class="fas fa-sort-down"></i></a>
+                </h1>
+                <div class="main-contents__header-icon">
+                    <i class="fas fa-search"></i>
+                    <i class="far fa-user"></i>
+                </div>
+            </header>
+
+            <div class="main-contents__content">
+                <!-- 내 프로필 -->
+                <div class="main-contents__profile friends__mine">
+                    <form class="main-contents__profile-friends">
+                        <div class="main-contents__profile-input">
+                            <input type="text" value="젤리" readonly class="main-contents__profile-name" />
+                            <textarea disabled class="main-contents__profile-preview1" readonly>
+                            </textarea>
+                            <img class="friends__my-img" src="1.jpg" />
+                        </div>
+                    </form>   
+                </div>
+                <!--  -->
+
+                    <div class="friends__line">
+                        <div class="friends__line-subject">
+                            즐겨찾기
+                        </div>
+                        <div>화살표</div>
+                    </div>
+                <!-- 즐겨찾기 -->
+                <div class="main-contents__profile friends__search">
+
+                    
+                    <form class="main-contents__profile-friends">
+                        <div class="main-contents__profile-input">
+                            <input type="text"  value="즐겨찾기" readonly class="main-contents__profile-name" />
+                            <textarea disabled class="main-contents__profile-preview1" readonly>
+                                즐겨찾기 내용 테스트! 내용이 길어지면 말줄임표가 나옵니다.
+                            </textarea>
+                            <img class="friends__img" src="1.jpg" />
+                        
+                    </form>
+                    </div>
+                </div>
+                <!--  -->
+
+                    <div class="friends__line">
+                        <div class="friends__line-subject">
+                            친구
+                            <div class="friends__count">10</div>
+                        </div>
+                        <div>화살표</div>
+                    </div>
+                <!-- 채팅 -->
+                <div class="main-contents__profile friends__search">
+                    <form class="main-contents__profile-friends friends__list">
+                        <div class="main-contents__profile-input">
+                            <input type="text"  value="친구 1 : 상태메세지 O" readonly class="main-contents__profile-name" />
+                            <textarea disabled class="main-contents__profile-preview1" readonly>
+                                친구 1의 상태메세지
+                            </textarea>
+                            <img class="friends__img" src="1.jpg" />
+                        </div>
+                        <div class="main-contents__profile-input">
+                            <input type="text"  value="친구 2 : 상태메세지 X" readonly class="main-contents__profile-name message-x" />
+                            <textarea disabled class="main-contents__profile-preview1" readonly>
+                            </textarea>
+                            <img class="friends__img message-x-img" src="1.jpg" />
+                        </div>
+                        <div class="main-contents__profile-input">
+                            <input type="text"  value="친구 3 : 상태메세지 O 음악 O " readonly class="main-contents__profile-name" />
+                            <textarea disabled class="main-contents__profile-preview1" readonly>
+                                어설프게나마 만들어 보았습니다.
+                            </textarea>
+                            <img class="friends__img" src="1.jpg" />
+                        </div>
+                    </form>
+                    <div class="main-contents__column">
+                        <div class="main-contents__column-notice">
+                            <div class="main-contents__column-music">숨겨진 세상 (Into the Unknown End Credit Version) ("겨울왕국 2") - 태연</div>
+                            <div class="main-contents__column-blank"></div>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+
+            </div>
+        </main>
+    </div>
+
+
+
+    <bottom id="adv">
+        <div class="adv__box">
+            광고 자리입니다.
+        </div>
+    </bottom>
+
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

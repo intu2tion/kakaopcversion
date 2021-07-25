@@ -1,0 +1,19 @@
+@import "reset.css";
+@import "variables.css";
+@import "top.css";
+@import "adv.css";
+@import "main.css";
+@import "nav.css";
+@import "friends.css";
+@import "more.css";
+
+body {
+    color: #262626;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none;
+}
+
+main {
+    margin-top: 43px;
+}
+
+

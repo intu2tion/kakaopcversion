@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KAKAO PC VERSION - Friends</title>
+    <title>Chat - pc version</title>
 </head>
 
 <body>
@@ -19,8 +19,8 @@
         <nav class="nav">
             <div class="nav__top">
                 <i class="fas fa-user"></i>
-                <i class="fas fa-comment nav__chat-click"></i>
-                <i class="fas fa-ellipsis-h"></i>
+                <i class="fas fa-comment nav__click"></i>
+                <i class="fas fa-ellipsis-h "></i>
             </div>
             <div class="nav__bottom">
                 <div><i class="far fa-smile"></i></div>
@@ -31,7 +31,7 @@
 
         <main class="main-contents">
             <header class="main-contents__header">
-                <h1 class="main-contents__header-title"><a href="#">채팅<i class="fas fa-sort-down"></i></a>
+                <h1 class="main-contents__header-title header-title-hover"><a href="#">채팅<i class="fas fa-sort-down"></i></a>
                 </h1>
                 <div class="main-contents__header-icon">
                     <i class="fas fa-search"></i>
@@ -42,59 +42,59 @@
 
             <div class="main-contents__content">
                 <!-- 채팅 1 시작-->
-                <div class="main-contents__chat">
-                    <form class="main-contents__chat-friends">
-                        <div class="main-contents__chat-input">
-                            <input type="text" value="젤리" readonly class="main-contents__chat-name" />
-                            <textarea disabled class="main-contents__chat-preview" readonly>안녕 코로나 끝나면 밥먹자.
+                <div class="main-contents__profile">
+                    <form class="main-contents__profile-friends">
+                        <div class="main-contents__profile-input">
+                            <input type="text" value="젤리" readonly class="main-contents__profile-name" />
+                            <textarea disabled class="main-contents__profile-preview" readonly>안녕 코로나 끝나면 밥먹자.
                             </textarea>
+                            <img class="chat__img" src="1.jpg" />
                         </div>
                     </form>   
-                        <div class="main-contents__chat-pic">
-                            <img src="1.jpg" />
-                            <div class="main-contents__chat-column">
-                                <div class="main-contents__chat-clock">오전 11:00</div>
-                                <span class="main-contents__chat-alarm">1</span>
+                        <div class="main-contents__column">
+                            <div class="main-contents__column-notice">
+                                <div class="main-contents__profile-clock">오전 11:00</div>
+                                <span class="main-contents__column-alarm">1</span>
                             </div>
                         </div>
                 </div>
                 <!-- 채팅 1 끝 -->
 
                 <!-- 채팅 2 시작-->
-                <div class="main-contents__chat main-contents__chat-list">
-                    <form class="main-contents__chat-friends">
-                        <div class="main-contents__chat-input">
-                            <input type="text"  value="이름을 길게 만들어서 말줄임표 테스트(1줄) @@@@@@@@@@@@@@@@@@@@@@@@@" readonly class="main-contents__chat-name two-line-padding" />
-                            <textarea disabled class="main-contents__chat-preview two-line" readonly>창 사이즈가 줄어들면 두줄로 변경되고, 가운데 정렬이 됩니다. 두줄이 초과되면 말줄임표가 나옵니다.
+                <div class="main-contents__profile main-contents__profile-list">
+                    <form class="main-contents__profile-friends">
+                        <div class="main-contents__profile-input">
+                            <input type="text"  value="이름을 길게 만들어서 말줄임표 테스트(1줄) @@@@@@@@@@@@@@@@@@@@@@@@@" readonly class="main-contents__profile-name ellipsis-line-one two-line-padding" />
+                            <textarea disabled class="main-contents__profile-preview two-line" readonly>창 사이즈가 줄어들면 두줄로 변경되고, 가운데 정렬이 됩니다. 두줄이 초과되면 말줄임표가 나옵니다.
                             </textarea>
+                            <img class="chat__img" src="2.jpg" />
                         </div>
                     </form>
-                    <div class="main-contents__chat-pic">
-                        <img src="2.jpg" />
-                        <div class="main-contents__chat-column">
-                            <div class="main-contents__chat-clock">오전 11:00</div>
-                            <span class="main-contents__chat-alarm">1</span>
+                    <div class="main-contents__column">
+                        <div class="main-contents__column-notice">
+                            <div class="main-contents__column-clock">오전 11:00</div>
+                            <span class="main-contents__column-alarm">1</span>
                         </div>
                     </div>
                 </div>
                 <!-- 채팅 2 끝 -->
 
                  <!-- 채팅 2 시작-->
-                <div class="main-contents__chat main-contents__chat-list">
-                    <form class="main-contents__chat-friends">
-                        <div class="main-contents__chat-input">
-                            <input type="text" value="테스트 이름길게 이름길게 이름길게 이름길게 이름길게 이름길게 이름길게 이름길게" readonly class="main-contents__chat-name ellipsis-name " />
-                            <textarea disabled class="main-contents__chat-preview" readonly>
+                <div class="main-contents__profile main-contents__profile-list">
+                    <form class="main-contents__profile-friends">
+                        <div class="main-contents__profile-input">
+                            <input type="text" value="테스트 이름길게 이름길게 이름길게 이름길게 이름길게 이름길게 이름길게 이름길게" readonly class="main-contents__profile-name ellipsis-name " />
+                            <textarea disabled class="main-contents__profile-preview" readonly>
                                 test
                             </textarea>
+                            <img class="chat__img" src="1.jpg" />
                             
                         </div>
                     </form>
-                    <div class="main-contents__chat-pic">
-                        <img src="1.jpg" />
-                        <div class="main-contents__chat-column">
-                            <div class="main-contents__chat-clock">2021-07-23</div>
-                            <span class="main-contents__chat-alarm">3</span>
+                    <div class="main-contents__column">
+                        <div class="main-contents__column-notice">
+                            <div class="main-contents__column-clock">2021-07-23</div>
+                            <span class="main-contents__column-alarm">3</span>
                         </div>
                     </div>
                 </div>
